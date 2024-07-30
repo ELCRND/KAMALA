@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAMALA</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="header__container">
+
+            <nav class="header__navigation navigation">
+                <ol class="navigation__list">
+                    <li><a href="#about" class="navigation__link">About</a></li>
+                    <li><a href="#roadmap" class="navigation__link">Road Map</a></li>
+                    <li><a href="#buy" class="navigation__link">How to buy</a></li>
+                </ol>
+            </nav>
+
+            <div class="header__socials">
+                <a href="#" aria-label="dextools">
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" viewBox="680 340 50 880.3" width="45" height="30" xml:space="preserve"
+                        fill="#fff">
+                        <path d="M699,766.5v102.4h36.2c19.9,0,40.7-0.6,46.1-1.2c44.7-5.5,77.7-32.6,88.3-72.4c3.5-13.2,4.3-36.4,1.8-50.2
+    c-5.1-26.8-19-48.4-40.4-63c-9.6-6.6-18.2-10.2-32-14c-10.8-2.9-12.5-2.9-55.5-3.5l-44.4-0.5V766.5z M778,705.9
+    c28.1,6,46.8,29.5,46.8,58.9c-0.1,19.5-6.1,36.3-17.3,47.4c-11.1,11.2-27.6,16.6-50.6,16.7H746v-62.3v-62.3h12.1
+    C764.7,704.3,773.6,705.1,778,705.9z"></path>
+                        <path d="M888.3,766.6v102.3l86.2-0.1h86.1l22.2-31.2c12.3-17,22.6-31,22.9-31c0.5,0,10.8,14,23,31.2l22.3,31.2h28
+    c15.3,0,27.9-0.4,27.9-0.7c0-0.4-16.5-23.4-36.4-51.1l-36.4-50.4l34.8-48.6c19.2-26.6,35.9-49.5,37-50.8c2.2-2.2,2.2-1.9,2.2,18.6
+    v20.8h21.2h21.2v81.1v81.1h25.3h25.3v-81.1v-81.1l24.7-0.2l24.6-0.4l-13.2-20.8l-13.2-20.8l-86.4-0.1h-86.5l-22.2,31.2
+    c-12.3,17-22.6,31-22.9,31.2c-0.4,0-10.7-14-22.9-31.2l-22.3-31.2h-86.1h-86.2V766.6z M1040.4,715.4c19.8,27.4,36,50.4,36,51.1
+    c0,0.7-16.2,23.9-36.1,51.5l-36.2,50.2l-0.4-19.6l-0.2-19.6h-34.1h-34.1V806v-22.9h27.6h27.6v-19.4v-19.4h-27.6h-27.6v-20v-20h34.1
+    h34.1v-19.4c0-10.7,0.2-19.4,0.5-19.4C1004.3,665.5,1020.6,688,1040.4,715.4z"></path>
+                        <path d="M342,528.5c-32,16.7-58.3,30.8-58.2,31.4c0,1.5,76.9,40.4,79.6,40.3c1.2,0,10.2-4.2,20-9.2l17.8-9.1l19.4,10
+            l19.4,10l31.8-14.3c47.8-21.5,52.8-23.9,52-24.6c-1-1.1-18.2-10.3-64.8-34.8c-22.5-11.8-44.3-23.5-48.5-25.8
+            c-4.2-2.4-8.2-4.2-8.9-4.2S374,511.8,342,528.5z M201.5,601.3l-33.4,17.2v75.6c0,41.6,0.4,75.6,1,75.6c0.5,0,16.9-7.1,36.5-15.8
+            l35.5-15.8v-79.7l17.3,9.4c13.4,7.3,26.7,14.5,40.1,21.8l22.8,12.3l10.1-4.6c6.4-2.9,12.7-5.8,19-8.7c4.9-2.3,16.9-7.7,26.7-12
+            c9.8-4.3,18.8-8.7,20.1-9.7c1.7-1.3-19.1-12.8-76.9-42.5c-43.6-22.4-80.7-40.6-82.4-40.5C236.2,584,219.8,591.8,201.5,601.3z
+             M529.7,606.1c-22.7,10.3-41.3,19.1-41.3,19.6c0,0.5,12.4,7.9,27.5,16.4c15.2,8.5,27.5,15.9,27.5,16.5c0,0.6-13.4,7.1-29.8,14.4
+            c-16.4,7.4-57.8,26.1-92.1,41.6l-114.7,51.9c-28.9,13-54.9,24.8-57.8,26.1c-58.9,26.7-75.2,34.1-77.4,35.4c-2.2,1.3-2.7,8.7-3.1,46
+            l-0.5,44.5l29.8,15.2l29.8,15.2l41.4-18.7c22.7-10.3,41.4-19.2,41.4-19.9c0-0.7-4.2-3.4-9.3-6.1c-5.1-2.7-15.7-8.7-23.6-13.3
+            c-7.8-4.6-15.6-8.8-17.3-9.4c-1.7-0.6-3.1-1.5-3.1-2.2c0-0.6,18.2-9.3,40.5-19.2c43.2-19.3,76.2-34.2,147.1-66.3
+            c31.7-14.3,63.4-28.7,95.2-43c27.9-12.6,60.3-27.3,72-32.7l21.3-9.8l0.5-45l0.5-45L604,602.9c-16.6-8.5-30.9-15.5-31.6-15.5
+            C571.6,587.4,552.4,595.9,529.7,606.1z M625.2,768.5c-4.5,2.2-13.3,6.3-19.6,9.1c-6.3,2.8-18.3,8.2-26.6,12l-15.1,6.9l-0.3,39.5
+            c-0.2,21.7-1,39.4-1.8,39.3c-1.8-0.3-30.1-14.8-58.6-30.1c-20.6-11-21.9-11.5-26.7-9.1c-2.8,1.4-19.5,8.9-37.1,16.6
+            c-17.6,7.8-32.6,14.6-33.3,15.3c-0.7,0.6,34.7,19.8,78.8,42.7l80,41.6l34.2-17.7c18.8-9.7,34.8-18.6,35.5-19.7
+            c1.7-2.5,1.5-150.7-0.1-150.5C633.8,764.5,629.6,766.3,625.2,768.5z M435.8,942.4c-5.9,2.5-11.9,5.1-17.8,7.7
+            c-17.9,7.7-14.4,8-35.7-2.6c-14.2-7.1-20.3-9.2-23-8.2c-2,0.8-19.1,8.5-38.1,17.1c-18.9,8.6-35.1,15.7-35.9,15.7
+            c-8,0,5.3,7.9,56.3,33.6l59.8,30.2l25.2-12.4c13.8-6.8,41.8-20.5,62-30.4c20.3-9.9,36.6-18.2,36.3-18.6c-0.3-0.3-17.3-9-37.8-19.4
+            l-37.2-18.8L435.8,942.4z"></path>
+                    </svg>
+                </a>
+
+                <a href="#" aria-label="telegram">
+                    <svg width="30" height="30" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_498)">
+                            <path
+                                d="M37.0406 18.5203C37.0406 28.7528 28.7528 37.0406 18.5203 37.0406C8.28783 37.0406 0 28.7528 0 18.5203C0 8.28783 8.28783 0 18.5203 0C28.7528 0 37.0406 8.28783 37.0406 18.5203Z"
+                                fill="url(#paint0_linear_1_498)"></path>
+                            <path
+                                d="M15.1245 27.0088C14.5226 27.0088 14.6307 26.7773 14.4146 26.2062L12.6552 20.4032L23.5821 13.5815L24.8631 13.9211L23.7982 16.8226L15.1245 27.0088Z"
+                                fill="#000"></path>
+                            <path
+                                d="M15.1248 27.0088C15.5878 27.0088 15.7884 26.7927 16.0508 26.5457C16.452 26.1599 21.6069 21.144 21.6069 21.144L18.443 20.3723L15.5106 22.2243L15.1248 26.8544V27.0088Z"
+                                fill="#fff"></path>
+                            <path
+                                d="M15.4335 22.2862L22.9034 27.796C23.7522 28.259 24.3696 28.0275 24.5856 27.0089L27.626 12.6866C27.9347 11.4364 27.1476 10.8808 26.3296 11.2512L8.4884 18.1346C7.26915 18.6285 7.28458 19.3076 8.27233 19.6008L12.8561 21.0361L23.459 14.3534C23.9528 14.0447 24.4159 14.2145 24.0455 14.554L15.4335 22.2862Z"
+                                fill="url(#paint1_linear_1_498)"></path>
+                        </g>
+                        <defs>
+                            <linearGradient id="paint0_linear_1_498" x1="23.9483" y1="5.85396" x2="14.6881" y2="27.4607"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#000"></stop>
+                                <stop offset="1" stop-color="#000"></stop>
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_1_498" x1="19.9079" y1="19.1" x2="23.7663" y2="25.2734"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#fff"></stop>
+                                <stop offset="1" stop-color="#fff"></stop>
+                            </linearGradient>
+                            <clipPath id="clip0_1_498">
+                                <rect width="37.0406" height="37.0406" fill="white"></rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+
+                <a href="#" aria-label="twitter">
+                    <svg width="30" height="30" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_503)">
+                            <path d="M13.3567 9.53247L26.6983 27.3675H23.6779L10.3372 9.53247H13.3567Z" fill="white">
+                            </path>
+                            <path d="M26.6983 27.3675H23.6779L10.3372 9.53247H13.3567L26.6983 27.3675Z" fill="#000">
+                            </path>
+                            <path
+                                d="M31.394 5.54672C28.092 2.24548 23.5306 0.203613 18.4915 0.203613C8.41338 0.203613 0.244385 8.37261 0.244385 18.4507C0.244385 23.4898 2.28625 28.0512 5.58749 31.3532C8.89105 34.656 13.4524 36.6979 18.4915 36.6979C23.5306 36.6979 28.092 34.656 31.394 31.3532C34.6968 28.0512 36.7386 23.4898 36.7386 18.4507C36.7386 13.4117 34.6968 8.85028 31.394 5.54672ZM22.9649 28.792L16.891 20.6716L9.37412 28.792H7.44183L16.0283 19.5172L7.49508 8.10869H14.0713L19.6645 15.5878L26.5872 8.10869H28.5195L20.528 16.7422L29.5412 28.792H22.9649Z"
+                                fill="#000"></path>
+                            <path
+                                d="M20.5278 16.7424L28.5193 8.10889H26.587L19.6643 15.588L14.0711 8.10889H7.4949L16.0281 19.5174L7.44165 28.7922H9.37393L16.8909 20.6718L22.9647 28.7922H29.541L20.5278 16.7424ZM10.337 9.53263H13.3566L26.6981 27.3677H23.6778L10.337 9.53263Z"
+                                fill="#fff"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_503">
+                                <rect width="37.0406" height="37.0406" fill="white" transform="translate(0.0405273)">
+                                </rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+
+                <a href="#" aria-label="dex screener">
+                    <img src="public/img/header/dex_screener.png" alt="">
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- HOME -->
+    <section class="home">
+
+        <div class="home__container">
+
+            <div class="home__wrap">
+
+
+                <h1 class="home__title" data-title="KAMALA">KAMALA</h1>
+                <h2 class="home__subtitle" data-title="Token">Token</h2>
+
+                <div class="home__links">
+                    <a href="javacscript:void(0)">Buy token</a>
+                    <a href="javacscript:void(0)">Join telegram</a>
+                    <a href="javacscript:void(0)">Dextools</a>
+                </div>
+
+                <div class="home__token token">
+                    <span class="token__code">CONTRACT</span>
+                    <button type="button" class="token__copy" aria-label="copy">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 64 64" id="copy"
+                            fill="#000">
+                            <g>
+                                <path stroke="#000" stroke-width="1.5"
+                                    d="M40.63,13H12.38A4.69,4.69,0,0,0,7.7,17.67V57.31A4.69,4.69,0,0,0,12.38,62H40.63a4.69,4.69,0,0,0,4.69-4.69V17.67A4.69,4.69,0,0,0,40.63,13Zm2.69,44.33A2.69,2.69,0,0,1,40.63,60H12.38A2.69,2.69,0,0,1,9.7,57.31V17.67A2.69,2.69,0,0,1,12.38,15H40.63a2.69,2.69,0,0,1,2.69,2.69Z">
+                                </path>
+                                <path stroke="#000" stroke-width="1.5"
+                                    d="M51.74,2H23.26a4.58,4.58,0,0,0-4.58,4.57v3.55a1,1,0,0,0,2,0V6.57A2.58,2.58,0,0,1,23.26,4H51.74A2.57,2.57,0,0,1,54.3,6.57V46.44A2.58,2.58,0,0,1,51.74,49H48.5a1,1,0,0,0,0,2h3.24a4.58,4.58,0,0,0,4.57-4.58V6.57A4.57,4.57,0,0,0,51.74,2Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+
+
+                <div class="home__img">
+                    <picture>
+                        <source media="(max-width:549)" srcset="public/img/home/home_img.png" width="92" height="104">
+                        <img src="public/img/home/home_img.png" alt="" width="408" height="460">
+                    </picture>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+
+        <div class="about__container">
+
+            <div class="about__wrap">
+                <h2 class="about__title">About</h2>
+                <p class="about__description">
+                    Kamala meme token is a playful and community-driven cryptocurrency project dedicated to capturing
+                    the spirit and enthusiasm of the crypto world with a nod to one of the most recognized figures in
+                    modern politics.
+                </p>
+                <a href="javascript:void(0)" class="about__btn">Read more</a>
+                <div class="about__img">
+                    <img src="public/img/about/about_img.png" alt="" width="486" height="486" loading="lazy">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ROADMAP -->
+    <section class="roadmap" id="roadmap">
+        <div class="roadmap__container">
+            <h2 class="roadmap__title">Road map</h2>
+            <ol class="roadmap__phases">
+                <li>Phase 1: Initial Launch and Community Building</li>
+                <li>Phase 2: Ecosystem Expansion and Partnerships</li>
+                <li>Phase 3: Utility Development and Integration</li>
+            </ol>
+            <p class="roadmap__text">After all the stages are completed, you will receive your reward</p>
+        </div>
+    </section>
+
+
+    <!-- BUY -->
+    <section class="buy" id="buy">
+
+        <div class="buy__container">
+
+            <h2 class="buy__title">How to buy</h2>
+
+            <div class="buy__wrap">
+
+                <ul class="buy__steps">
+
+                    <li>
+                        <h3>
+                            <span>Create wallet</span>
+                            <img src="public/img/buy/wallet_icon.png" alt="" width="44" height="44" loading="lazy">
+                        </h3>
+                        <p>
+                            Download and install a Solana-compatible wallet such as Phantom.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <span>Add SOL</span>
+                            <img src="public/img/buy/add_icon.png" alt="" width="44" height="44" loading="lazy">
+                        </h3>
+                        <p>
+                            Purchase Solana (SOL) from a reputable exchange like Binance, Coinbase, or Kraken. Transfer
+                            the SOL to your Solana wallet address.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <span>Buy</span>
+                            <img src="public/img/buy/basket_icon.png" alt="" width="44" height="44" loading="lazy">
+                        </h3>
+                        <p>
+                            Search for the $KAMALA token using its contract address provided on our official website.
+                            Swap for $KAMALA and confirm the transaction.
+                        </p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__container">
+
+            <div>
+                <h2 class="footer__title">Kamala</h2>
+                <ol class="footer__navigation">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#buy">Buy token</a></li>
+                </ol>
+            </div>
+
+            <div class="footer__socials">
+                <h3>Media Links</h3>
+                <a href="javascript:void(0)">Twitter</a>
+                <a href="javascript:void(0)">Telegram</a>
+            </div>
+
+            <div class="footer__buy">
+                <h3>How to buy</h3>
+                <a href="javascript:void(0)">Dextools</a>
+            </div>
+
+            <div class="footer__follow">
+                <h3>Follow Us</h3>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="tooltip">
+        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M5.83333 2.33333H14.9275C16.2283 2.33333 16.6997 2.46867 17.1745 2.723C17.6493 2.97733 18.0227 3.35067 18.277 3.8255C18.5313 4.30033 18.6667 4.77167 18.6667 6.0725V15.1667C18.6667 15.4761 18.7896 15.7728 19.0084 15.9916C19.2272 16.2104 19.5239 16.3333 19.8333 16.3333C20.1428 16.3333 20.4395 16.2104 20.6583 15.9916C20.8771 15.7728 21 15.4761 21 15.1667V5.98267C21 3.9025 20.783 3.14767 20.377 2.387C19.9792 1.63544 19.3646 1.02084 18.613 0.623C17.8523 0.217 17.0975 0 15.0173 0H5.83333C5.52391 0 5.22717 0.122916 5.00838 0.341709C4.78958 0.560501 4.66667 0.857247 4.66667 1.16667C4.66667 1.47609 4.78958 1.77283 5.00838 1.99162C5.22717 2.21042 5.52391 2.33333 5.83333 2.33333ZM14.8412 5.05633C14.3663 4.802 13.895 4.66667 12.5942 4.66667H3.73917C2.43833 4.66667 1.967 4.802 1.49217 5.05633C1.02245 5.30499 0.638327 5.68911 0.389667 6.15883C0.135333 6.63367 0 7.105 0 8.40583V17.2608C0 18.5605 0.135333 19.033 0.389667 19.5078C0.644 19.9827 1.01733 20.356 1.49217 20.6103C1.967 20.8647 2.43833 21 3.73917 21H12.5942C13.8938 21 14.3663 20.8647 14.8412 20.6103C15.316 20.356 15.6893 19.9827 15.9437 19.5078C16.198 19.033 16.3333 18.5617 16.3333 17.2608V8.40583C16.3333 7.105 16.198 6.63367 15.9437 6.15883C15.695 5.68911 15.3109 5.30499 14.8412 5.05633Z"
+                fill="#060606"></path>
+        </svg>
+        <span>Copied</span>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

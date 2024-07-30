@@ -1,0 +1,140 @@
+.header {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 86px;
+  left: 0;
+  z-index: 10;
+
+  @media screen and (max-width: 1079px) {
+    top: 20px;
+  }
+}
+
+.header__container {
+  width: min(1480px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.navigation__list {
+  width: 465px;
+  height: 52px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background: #1a94c5;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--third-family);
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+  filter: drop-shadow(4px 6px 0 #000);
+
+  @media screen and (max-width: 549px) {
+    max-width: 320px;
+    height: 44px;
+    border-width: 1px;
+    background-color: #ffda58;
+    gap: 22px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 700;
+    filter: drop-shadow(0 3px 0 #000);
+  }
+}
+
+.navigation__link {
+  transition: color 200ms ease;
+  &:hover {
+    color: #303030;
+  }
+  &:active {
+    color: #000;
+  }
+}
+
+.header__socials {
+  width: 264px;
+  height: 52px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background: #ffda58;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  filter: drop-shadow(4px 6px 0 #000);
+
+  @media screen and (max-width: 768px) {
+    padding-top: 0;
+    position: absolute;
+    top: 340px;
+    left: 52px;
+    width: 191px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-width: 1px;
+    border-radius: 80px;
+    filter: drop-shadow(2px 5px 0 #000);
+  }
+  @media screen and (max-width: 549px) {
+    top: 280px;
+  }
+
+  a {
+    height: 30px;
+    &:first-of-type {
+      width: 73px;
+      border-radius: 17px;
+      display: flex;
+      justify-content: center;
+      background-color: black;
+
+      @media screen and (max-width: 879px) {
+        width: 55px !important;
+        height: 22px;
+
+        svg {
+          width: 43px;
+          height: 22px;
+        }
+      }
+    }
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    translate: 0 -1px;
+  }
+
+  svg,
+  img,
+  a {
+    @media screen and (max-width: 879px) {
+      width: 22px;
+      height: 22px;
+    }
+
+    &:hover {
+      transition: scale 200ms ease;
+      scale: 1.05;
+    }
+  }
+}
